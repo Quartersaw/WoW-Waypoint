@@ -1,0 +1,11 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Frame name = "WaypointFrame" toplevel = "true" enableMouse = "true" movable = "true" parent = "UIParent">
+		<Scripts>
+			<OnLoad>
+				self:SetClampedToScreen(1);
+				WaypointOnLoad();
+			</OnLoad>
+			<OnUpdate function = "WaypointOnUpdate"/>
+		</Scripts>
+	</Frame>
+</Ui> 

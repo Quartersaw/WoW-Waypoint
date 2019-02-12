@@ -1,0 +1,9 @@
+## Interface: 50400
+## Title: Waypoint
+## Notes: Double click a zone map to set a waypoint marker.
+## Author: Michael Thomas
+Dongle.lua
+DongleFrames.lua
+Astrolabe\Load.xml
+Waypoint.lua
+Waypoint.xml
